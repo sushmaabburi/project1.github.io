@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+.nav{
+	width: 250px;
+	height: auto;
+
+	position: absolute;
+	top: 20%;
+	left: 0;
+}
+.nav a{
+	 text-decoration: none;
+	 font-size: 28px;
+	 font-family: verdana;
+	 font-weight: bold;
+	 height: 90px;
+	 margin: 5px 0;
+	 float: left;
+	 display: inline-block;
+	 background-color: black;
+	 color: white;
+	 line-height: 90px;
+	 text-align: center;
+	 transition: 300ms;
+}
+a.active,.nav a:hover
+{
+	background-color: rosybrown;
+	color: black;
+	width: 100%;
+}
+.a
+{
+	width: 95%;
+}
+.b
+{
+	width: 85%;
+}
+.c{
+	width: 80%;
+}
+.d{
+	width: 90%;
+}
